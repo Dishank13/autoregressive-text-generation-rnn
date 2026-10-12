@@ -116,7 +116,7 @@ pip install -r requirements.txt
 # 1. Train all four models and evaluate them on the test split (about 13 minutes on a laptop CPU)
 python -m src.train
 
-# 2. Generate text at every temperature and compute the text metrics (a minute or two)
+# 2. Generate text at every temperature and compute the text metrics (under a minute)
 python -m src.generate
 ```
 
