@@ -1,0 +1,225 @@
+{
+  "characters": 144008,
+  "tokens_total": 33784,
+  "word_tokens": 26685,
+  "punctuation_tokens": 7099,
+  "unique_tokens": 2637,
+  "vocab_size_min_freq": 1307,
+  "tokens_seen_once": 1139,
+  "approx_sentences": 1640,
+  "avg_sentence_len": 16.27,
+  "most_common_words": [
+    "the",
+    "and",
+    "to",
+    "a",
+    "she",
+    "it",
+    "of",
+    "said",
+    "i",
+    "alice",
+    "in",
+    "you",
+    "was",
+    "that",
+    "as"
+  ],
+  "train_tokens": 27027,
+  "train_sequences": 27007,
+  "train_unk_rate": 0.0381,
+  "val_tokens": 3378,
+  "val_sequences": 3358,
+  "val_unk_rate": 0.0906,
+  "test_tokens": 3379,
+  "test_sequences": 3359,
+  "test_unk_rate": 0.1012
+}
+SimpleRNN epoch  1  train loss 5.312  val loss 4.387  val ppl 80.4  val acc 0.224  4.8s
+SimpleRNN epoch  2  train loss 4.681  val loss 4.196  val ppl 66.4  val acc 0.227  4.1s
+SimpleRNN epoch  3  train loss 4.431  val loss 4.068  val ppl 58.4  val acc 0.244  4.6s
+SimpleRNN epoch  4  train loss 4.258  val loss 3.992  val ppl 54.1  val acc 0.252  4.6s
+SimpleRNN epoch  5  train loss 4.127  val loss 3.984  val ppl 53.7  val acc 0.241  4.9s
+SimpleRNN epoch  6  train loss 4.011  val loss 3.912  val ppl 50.0  val acc 0.255  4.1s
+SimpleRNN epoch  7  train loss 3.920  val loss 3.907  val ppl 49.8  val acc 0.254  4.5s
+SimpleRNN epoch  8  train loss 3.857  val loss 3.878  val ppl 48.3  val acc 0.253  4.8s
+SimpleRNN epoch  9  train loss 3.786  val loss 3.861  val ppl 47.5  val acc 0.259  5.0s
+SimpleRNN epoch 10  train loss 3.720  val loss 3.863  val ppl 47.6  val acc 0.256  4.8s
+SimpleRNN epoch 11  train loss 3.669  val loss 3.865  val ppl 47.7  val acc 0.260  4.8s
+SimpleRNN epoch 12  train loss 3.616  val loss 3.841  val ppl 46.5  val acc 0.252  5.1s
+SimpleRNN epoch 13  train loss 3.581  val loss 3.855  val ppl 47.2  val acc 0.256  4.3s
+SimpleRNN epoch 14  train loss 3.544  val loss 3.857  val ppl 47.3  val acc 0.261  4.3s
+SimpleRNN epoch 15  train loss 3.499  val loss 3.869  val ppl 47.9  val acc 0.256  4.4s
+SimpleRNN epoch 16  train loss 3.458  val loss 3.852  val ppl 47.1  val acc 0.270  4.3s
+SimpleRNN epoch 17  train loss 3.431  val loss 3.867  val ppl 47.8  val acc 0.257  4.3s
+SimpleRNN epoch 18  train loss 3.407  val loss 3.861  val ppl 47.5  val acc 0.258  4.6s
+SimpleRNN epoch 19  train loss 3.379  val loss 3.868  val ppl 47.8  val acc 0.265  4.3s
+SimpleRNN epoch 20  train loss 3.363  val loss 3.870  val ppl 47.9  val acc 0.254  4.3s
+SimpleRNN epoch 21  train loss 3.331  val loss 3.863  val ppl 47.6  val acc 0.264  4.4s
+SimpleRNN epoch 22  train loss 3.304  val loss 3.885  val ppl 48.7  val acc 0.257  4.4s
+SimpleRNN epoch 23  train loss 3.271  val loss 3.875  val ppl 48.2  val acc 0.258  4.4s
+SimpleRNN epoch 24  train loss 3.266  val loss 3.867  val ppl 47.8  val acc 0.261  4.3s
+SimpleRNN epoch 25  train loss 3.257  val loss 3.869  val ppl 47.9  val acc 0.264  4.3s
+SimpleRNN epoch 26  train loss 3.239  val loss 3.875  val ppl 48.2  val acc 0.258  4.3s
+SimpleRNN epoch 27  train loss 3.216  val loss 3.896  val ppl 49.2  val acc 0.256  5.2s
+SimpleRNN epoch 28  train loss 3.193  val loss 3.897  val ppl 49.3  val acc 0.257  4.5s
+SimpleRNN epoch 29  train loss 3.175  val loss 3.914  val ppl 50.1  val acc 0.257  4.6s
+SimpleRNN epoch 30  train loss 3.168  val loss 3.918  val ppl 50.3  val acc 0.256  4.4s
+{
+  "model": "SimpleRNN",
+  "parameters": 328743,
+  "best_epoch": 12,
+  "train_loss_at_best": 3.615659239874177,
+  "val_loss": 3.8405192581367604,
+  "val_perplexity": 46.54963944435337,
+  "test_loss": 3.981490352956551,
+  "test_perplexity": 53.59685296194726,
+  "test_accuracy": 0.2515629651682048,
+  "test_top5_accuracy": 0.4855611789222983,
+  "final_train_loss": 3.1676783380467106,
+  "final_val_loss": 3.917680023538704,
+  "train_time_total_s": 135.65686969988747,
+  "train_time_per_epoch_s": 4.521895656662916,
+  "train_time_to_best_s": 56.19897359999595
+}
+BiRNN     epoch  1  train loss 5.264  val loss 4.352  val ppl 77.7  val acc 0.223  7.1s
+BiRNN     epoch  2  train loss 4.591  val loss 4.173  val ppl 64.9  val acc 0.239  7.7s
+BiRNN     epoch  3  train loss 4.264  val loss 4.086  val ppl 59.5  val acc 0.244  7.7s
+BiRNN     epoch  4  train loss 4.021  val loss 4.028  val ppl 56.2  val acc 0.247  7.3s
+BiRNN     epoch  5  train loss 3.822  val loss 4.051  val ppl 57.4  val acc 0.230  7.0s
+BiRNN     epoch  6  train loss 3.652  val loss 4.005  val ppl 54.8  val acc 0.245  7.1s
+BiRNN     epoch  7  train loss 3.503  val loss 4.032  val ppl 56.3  val acc 0.246  7.5s
+BiRNN     epoch  8  train loss 3.379  val loss 4.008  val ppl 55.1  val acc 0.255  7.6s
+BiRNN     epoch  9  train loss 3.271  val loss 4.032  val ppl 56.3  val acc 0.247  7.6s
+BiRNN     epoch 10  train loss 3.173  val loss 4.041  val ppl 56.9  val acc 0.251  7.8s
+BiRNN     epoch 11  train loss 3.096  val loss 4.081  val ppl 59.2  val acc 0.242  7.2s
+BiRNN     epoch 12  train loss 3.028  val loss 4.080  val ppl 59.1  val acc 0.249  7.2s
+BiRNN     epoch 13  train loss 2.951  val loss 4.105  val ppl 60.6  val acc 0.244  7.2s
+BiRNN     epoch 14  train loss 2.902  val loss 4.124  val ppl 61.8  val acc 0.254  7.2s
+BiRNN     epoch 15  train loss 2.842  val loss 4.142  val ppl 62.9  val acc 0.248  7.4s
+BiRNN     epoch 16  train loss 2.805  val loss 4.165  val ppl 64.4  val acc 0.253  7.2s
+BiRNN     epoch 17  train loss 2.756  val loss 4.174  val ppl 65.0  val acc 0.250  7.3s
+BiRNN     epoch 18  train loss 2.718  val loss 4.205  val ppl 67.0  val acc 0.253  7.4s
+BiRNN     epoch 19  train loss 2.680  val loss 4.214  val ppl 67.6  val acc 0.244  7.2s
+BiRNN     epoch 20  train loss 2.650  val loss 4.229  val ppl 68.7  val acc 0.249  7.3s
+BiRNN     epoch 21  train loss 2.621  val loss 4.260  val ppl 70.8  val acc 0.253  7.4s
+BiRNN     epoch 22  train loss 2.594  val loss 4.274  val ppl 71.8  val acc 0.238  7.4s
+BiRNN     epoch 23  train loss 2.571  val loss 4.292  val ppl 73.1  val acc 0.250  7.2s
+BiRNN     epoch 24  train loss 2.535  val loss 4.282  val ppl 72.4  val acc 0.255  7.3s
+BiRNN     epoch 25  train loss 2.521  val loss 4.308  val ppl 74.3  val acc 0.250  7.2s
+BiRNN     epoch 26  train loss 2.491  val loss 4.337  val ppl 76.5  val acc 0.236  7.3s
+BiRNN     epoch 27  train loss 2.472  val loss 4.344  val ppl 77.0  val acc 0.245  7.2s
+BiRNN     epoch 28  train loss 2.448  val loss 4.360  val ppl 78.2  val acc 0.243  7.4s
+BiRNN     epoch 29  train loss 2.441  val loss 4.369  val ppl 79.0  val acc 0.245  7.2s
+BiRNN     epoch 30  train loss 2.410  val loss 4.393  val ppl 80.9  val acc 0.242  7.2s
+{
+  "model": "BiRNN",
+  "parameters": 525479,
+  "best_epoch": 6,
+  "train_loss_at_best": 3.651799243633629,
+  "val_loss": 4.004563454860303,
+  "val_perplexity": 54.84787559856894,
+  "test_loss": 4.153471505794542,
+  "test_perplexity": 63.65459447316955,
+  "test_accuracy": 0.24025007442691276,
+  "test_top5_accuracy": 0.4653170586484073,
+  "final_train_loss": 2.4096786676590414,
+  "final_val_loss": 4.392789750954024,
+  "train_time_total_s": 220.03585499996552,
+  "train_time_per_epoch_s": 7.334528499998851,
+  "train_time_to_best_s": 44.03460879996419
+}
+LSTM      epoch  1  train loss 5.352  val loss 4.531  val ppl 92.9  val acc 0.220  6.3s
+LSTM      epoch  2  train loss 4.781  val loss 4.274  val ppl 71.8  val acc 0.236  7.0s
+LSTM      epoch  3  train loss 4.508  val loss 4.115  val ppl 61.3  val acc 0.248  6.4s
+LSTM      epoch  4  train loss 4.307  val loss 4.005  val ppl 54.9  val acc 0.258  6.3s
+LSTM      epoch  5  train loss 4.157  val loss 3.951  val ppl 52.0  val acc 0.251  6.3s
+LSTM      epoch  6  train loss 4.016  val loss 3.876  val ppl 48.3  val acc 0.258  6.3s
+LSTM      epoch  7  train loss 3.906  val loss 3.850  val ppl 47.0  val acc 0.264  6.9s
+LSTM      epoch  8  train loss 3.814  val loss 3.803  val ppl 44.8  val acc 0.269  6.2s
+LSTM      epoch  9  train loss 3.724  val loss 3.790  val ppl 44.2  val acc 0.268  6.3s
+LSTM      epoch 10  train loss 3.641  val loss 3.777  val ppl 43.7  val acc 0.270  6.2s
+LSTM      epoch 11  train loss 3.570  val loss 3.777  val ppl 43.7  val acc 0.268  6.2s
+LSTM      epoch 12  train loss 3.501  val loss 3.758  val ppl 42.9  val acc 0.275  6.4s
+LSTM      epoch 13  train loss 3.443  val loss 3.753  val ppl 42.7  val acc 0.275  6.3s
+LSTM      epoch 14  train loss 3.386  val loss 3.753  val ppl 42.6  val acc 0.282  6.4s
+LSTM      epoch 15  train loss 3.345  val loss 3.766  val ppl 43.2  val acc 0.269  6.2s
+LSTM      epoch 16  train loss 3.288  val loss 3.764  val ppl 43.1  val acc 0.272  6.2s
+LSTM      epoch 17  train loss 3.245  val loss 3.769  val ppl 43.3  val acc 0.269  6.2s
+LSTM      epoch 18  train loss 3.200  val loss 3.768  val ppl 43.3  val acc 0.270  6.1s
+LSTM      epoch 19  train loss 3.158  val loss 3.768  val ppl 43.3  val acc 0.275  6.2s
+LSTM      epoch 20  train loss 3.126  val loss 3.779  val ppl 43.8  val acc 0.271  6.2s
+LSTM      epoch 21  train loss 3.084  val loss 3.793  val ppl 44.4  val acc 0.276  6.2s
+LSTM      epoch 22  train loss 3.041  val loss 3.800  val ppl 44.7  val acc 0.271  6.2s
+LSTM      epoch 23  train loss 3.007  val loss 3.808  val ppl 45.1  val acc 0.274  6.2s
+LSTM      epoch 24  train loss 2.981  val loss 3.800  val ppl 44.7  val acc 0.276  6.1s
+LSTM      epoch 25  train loss 2.950  val loss 3.825  val ppl 45.8  val acc 0.272  6.1s
+LSTM      epoch 26  train loss 2.932  val loss 3.836  val ppl 46.3  val acc 0.271  6.2s
+LSTM      epoch 27  train loss 2.907  val loss 3.848  val ppl 46.9  val acc 0.269  6.0s
+LSTM      epoch 28  train loss 2.868  val loss 3.858  val ppl 47.4  val acc 0.270  6.2s
+LSTM      epoch 29  train loss 2.846  val loss 3.868  val ppl 47.9  val acc 0.268  6.4s
+LSTM      epoch 30  train loss 2.825  val loss 3.873  val ppl 48.1  val acc 0.269  6.3s
+{
+  "model": "LSTM",
+  "parameters": 417063,
+  "best_epoch": 14,
+  "train_loss_at_best": 3.3858721125248152,
+  "val_loss": 3.752934788152389,
+  "val_perplexity": 42.64605566365732,
+  "test_loss": 3.9421440367543936,
+  "test_perplexity": 51.52896293900262,
+  "test_accuracy": 0.26436439416493,
+  "test_top5_accuracy": 0.4944924084548973,
+  "final_train_loss": 2.824976939585092,
+  "final_val_loss": 3.873101582620881,
+  "train_time_total_s": 188.70914180000545,
+  "train_time_per_epoch_s": 6.290304726666848,
+  "train_time_to_best_s": 89.56762909999816
+}
+GRU       epoch  1  train loss 5.319  val loss 4.376  val ppl 79.5  val acc 0.223  8.5s
+GRU       epoch  2  train loss 4.659  val loss 4.156  val ppl 63.8  val acc 0.243  8.5s
+GRU       epoch  3  train loss 4.376  val loss 4.016  val ppl 55.5  val acc 0.252  8.5s
+GRU       epoch  4  train loss 4.163  val loss 3.924  val ppl 50.6  val acc 0.255  8.8s
+GRU       epoch  5  train loss 4.012  val loss 3.895  val ppl 49.2  val acc 0.248  9.2s
+GRU       epoch  6  train loss 3.877  val loss 3.821  val ppl 45.6  val acc 0.258  9.9s
+GRU       epoch  7  train loss 3.762  val loss 3.812  val ppl 45.3  val acc 0.263  8.7s
+GRU       epoch  8  train loss 3.666  val loss 3.775  val ppl 43.6  val acc 0.268  8.5s
+GRU       epoch  9  train loss 3.572  val loss 3.762  val ppl 43.0  val acc 0.267  8.6s
+GRU       epoch 10  train loss 3.492  val loss 3.766  val ppl 43.2  val acc 0.275  8.8s
+GRU       epoch 11  train loss 3.424  val loss 3.767  val ppl 43.3  val acc 0.269  8.4s
+GRU       epoch 12  train loss 3.358  val loss 3.745  val ppl 42.3  val acc 0.268  8.4s
+GRU       epoch 13  train loss 3.306  val loss 3.755  val ppl 42.7  val acc 0.269  8.5s
+GRU       epoch 14  train loss 3.249  val loss 3.764  val ppl 43.1  val acc 0.271  8.5s
+GRU       epoch 15  train loss 3.194  val loss 3.784  val ppl 44.0  val acc 0.266  8.5s
+GRU       epoch 16  train loss 3.146  val loss 3.761  val ppl 43.0  val acc 0.273  8.7s
+GRU       epoch 17  train loss 3.093  val loss 3.777  val ppl 43.7  val acc 0.272  8.5s
+GRU       epoch 18  train loss 3.062  val loss 3.787  val ppl 44.1  val acc 0.272  8.5s
+GRU       epoch 19  train loss 3.035  val loss 3.790  val ppl 44.3  val acc 0.272  9.5s
+GRU       epoch 20  train loss 2.995  val loss 3.813  val ppl 45.3  val acc 0.267  8.4s
+GRU       epoch 21  train loss 2.960  val loss 3.820  val ppl 45.6  val acc 0.266  8.7s
+GRU       epoch 22  train loss 2.918  val loss 3.826  val ppl 45.9  val acc 0.267  8.5s
+GRU       epoch 23  train loss 2.885  val loss 3.840  val ppl 46.5  val acc 0.267  8.5s
+GRU       epoch 24  train loss 2.870  val loss 3.833  val ppl 46.2  val acc 0.264  8.6s
+GRU       epoch 25  train loss 2.838  val loss 3.849  val ppl 47.0  val acc 0.271  8.5s
+GRU       epoch 26  train loss 2.817  val loss 3.875  val ppl 48.2  val acc 0.261  8.4s
+GRU       epoch 27  train loss 2.773  val loss 3.889  val ppl 48.8  val acc 0.266  8.5s
+GRU       epoch 28  train loss 2.758  val loss 3.897  val ppl 49.2  val acc 0.261  8.6s
+GRU       epoch 29  train loss 2.729  val loss 3.887  val ppl 48.8  val acc 0.274  8.0s
+GRU       epoch 30  train loss 2.707  val loss 3.910  val ppl 49.9  val acc 0.261  7.9s
+{
+  "model": "GRU",
+  "parameters": 387623,
+  "best_epoch": 12,
+  "train_loss_at_best": 3.358394564334698,
+  "val_loss": 3.744891693224291,
+  "val_perplexity": 42.30442511482342,
+  "test_loss": 3.926302792593708,
+  "test_perplexity": 50.719111518393525,
+  "test_accuracy": 0.25721941053885083,
+  "test_top5_accuracy": 0.4935992855016374,
+  "final_train_loss": 2.707304301298803,
+  "final_val_loss": 3.9098309442498556,
+  "train_time_total_s": 258.2450254998985,
+  "train_time_per_epoch_s": 8.608167516663283,
+  "train_time_to_best_s": 104.87213350000093
+}
